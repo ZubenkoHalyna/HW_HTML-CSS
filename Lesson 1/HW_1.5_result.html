@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Бетмен</title>
+    <style id="photo_links">
+        .Michael_Keaton {
+            background: url('https://upload.wikimedia.org/wikipedia/uk/d/df/Michael-Keaton-1.jpg');
+        }
+
+        .Michael_Keaton:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Michael_Keaton_screen2.png?raw=true');
+        }
+
+        .Jack_Nicholson {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Jack_Nicholson_2002_%28cropped%29.jpg/345px-Jack_Nicholson_2002_%28cropped%29.jpg');
+        }
+
+        .Jack_Nicholson:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Jack_Nicholson_screen2.png?raw=true');
+        }
+
+        .Kim_Basinger {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Kim_Basinger_%282105860771%29_crop.JPG/420px-Kim_Basinger_%282105860771%29_crop.JPG');
+        }
+
+        .Kim_Basinger:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Kim_Basinger_screen2.png?raw=true');
+        }
+
+        .Robert_Wuhl {
+            background: url('https://media.baselineresearch.com/images/328446/328446_full.jpg');
+        }
+
+        .Robert_Wuhl:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Robert_Wuhl_screen2.png?raw=true');
+        }
+
+        .Pet_Hingl {
+            background: url('https://kinoafisha.ua/upload/2013/09/persons/3487/fotos/1377990793pet-hingl.webp');
+        }
+
+        .Pet_Hingl:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Pet_Hingl_screen5.png?raw=true');
+        }
+
+        .Billy_Dee_Williams {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Billy_Dee_Williams_by_Gage_Skidmore.jpg/375px-Billy_Dee_Williams_by_Gage_Skidmore.jpg');
+        }
+
+        .Billy_Dee_Williams:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Billy_Dee_Williams_screen.png?raw=true');
+        }
+
+        .Michael_Gough {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Dracula_%281958%29_trailer_-_Michael_Gough_%28cropped_%26_flipped%29.png/375px-Dracula_%281958%29_trailer_-_Michael_Gough_%28cropped_%26_flipped%29.png');
+        }
+
+        .Michael_Gough:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Michael_Gough_screen.png?raw=true');
+        }
+
+        .Jack_Palance {
+            background: url('https://static.ukrinform.com/photos/2021_02/1613676502-390.jpg');
+        }
+
+        .Jack_Palance:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Jack_Palance_screen.png?raw=true');
+        }
+
+        .Jerry_Hall {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jerry_Hall_headshot.jpg/411px-Jerry_Hall_headshot.jpg');
+        }
+
+        .Jerry_Hall:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Jerry_Hall_screen.png?raw=true');
+        }
+
+        .Tracey_Walter {
+            background: url('https://image.tmdb.org/t/p/original/brqhinzxGKzqfAhOq6Npi3GFVWW.jpg');
+        }
+
+        .Tracey_Walter:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Tracey_Walter_screen.png?raw=true');
+        }
+
+        .Lee_Wallace {
+            background: url('https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2020/12/25/848935/20201225175446100265o.png');
+        }
+
+        .Lee_Wallace:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/Lee_Wallace_screen.png?raw=true');
+        }
+
+        .William_Hootkins {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/0/09/William_Hootkins_in_2002_%28cropped%29.jpg');
+        }
+
+        .William_Hootkins:hover {
+            background: url('https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/screens/William_Hootkins_screen3.png?raw=true');
+        }
+    </style>
+
+    <style>
+        body {
+            background: rgb(5, 5, 5);
+            color: white;
+            padding: 1rem;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0 0 0.5rem;
+        }
+
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            height: 20rem;
+        }
+
+        .header-container {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .header-text {
+            position: absolute;
+            width: 27rem;
+            bottom: 1rem;
+            left: 50%;
+            transform: translate(-50%, 0);
+            text-align: left;
+        }
+
+        .text-container {
+            width: 100%;
+            height: max-content;
+            position: absolute;
+            bottom: 0;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.5);
+            text-align: left;
+        }
+
+        .image, .image:hover {
+            display: inline-block;
+            position: relative;
+            height: 20rem;
+            width: 15rem;
+            margin: 0 1rem 1rem 0;
+
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .image:hover .role {
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+
+        .image:hover .name {
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+
+        .role {
+            font-weight: 300;
+            font-size: 0.8rem;
+        }
+
+        .name {
+            font-weight: 900;
+            font-size: 1.2rem;
+        }
+    </style>
+
+</head>
+<body>
+<div class="header-container">
+    <img src="https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/Batman_log.jpg?raw=true" alt="Batmen logo"/>
+    <div class="header-text">
+        <h1>Бетмен</h1>
+        Американський фільм Тіма Бертона 1989 року, що базується на однойменній серії коміксів про супергероя
+        Бетмена.
+    </div>
+</div>
+<h2>Акторський склад</h2>
+<div class="Michael_Keaton image">
+    <div class="text-container">
+        <div class="name">Майкл Кітон</div>
+        <div class="role">Бетмен / Брюс Вейн</div>
+    </div>
+</div>
+<div class="Jack_Nicholson image">
+    <div class="text-container">
+        <div class="name">Джек Ніколсон</div>
+        <div class="role">Джокер / Джек Напьє</div>
+    </div>
+</div>
+<div class="Kim_Basinger image">
+    <div class="text-container">
+        <div class="name">Кім Бейсінгер</div>
+        <div class="role">Вікі Вейл</div>
+    </div>
+</div>
+<div class="Robert_Wuhl image">
+    <div class="text-container">
+        <div class="name">Роберт Вул</div>
+        <div class="role">Александер Нокс</div>
+    </div>
+</div>
+<div class="Pet_Hingl image">
+    <div class="text-container">
+        <div class="name">Пет Гінгл</div>
+        <div class="role">комісар Джеймс Ґордон</div>
+    </div>
+</div>
+<div class="Billy_Dee_Williams image">
+    <div class="text-container">
+        <div class="name">Біллі Ді Вільямс</div>
+        <div class="role">Гарві Дент</div>
+    </div>
+</div>
+<div class="Michael_Gough image">
+    <div class="text-container">
+        <div class="name">Майкл Гоф</div>
+        <div class="role">Альфред Пенніворт</div>
+    </div>
+</div>
+<div class="Jack_Palance image">
+    <div class="text-container">
+        <div class="name">Джек Паланс</div>
+        <div class="role">Карл Ґріссом</div>
+    </div>
+</div>
+<div class="Jerry_Hall image">
+    <div class="text-container">
+        <div class="name">Джеррі Голл</div>
+        <div class="role">Алісія Гант</div>
+    </div>
+</div>
+<div class="Tracey_Walter image">
+    <div class="text-container">
+        <div class="name">Трейсі Волтер</div>
+        <div class="role">Боб</div>
+    </div>
+</div>
+<div class="Lee_Wallace image">
+    <div class="text-container">
+        <div class="name">Лі Воллес</div>
+        <div class="role">мер</div>
+    </div>
+</div>
+<div class="William_Hootkins image">
+    <div class="text-container">
+        <div class="name">Вільям Гуткінс</div>
+        <div class="role">лейтенант Екхард</div>
+    </div>
+</div>
+</body>
+</html>
