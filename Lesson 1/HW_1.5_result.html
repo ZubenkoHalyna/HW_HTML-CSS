@@ -138,26 +138,28 @@
             text-align: left;
         }
 
-        .text-container {
-            width: 100%;
-            height: max-content;
-            position: absolute;
-            bottom: 0;
-            padding: 1rem;
-            background: rgba(0, 0, 0, 0.5);
-            text-align: left;
+        .actors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         .image, .image:hover {
-            display: inline-block;
-            position: relative;
+            display: inline-flex;
+            align-items: flex-end;
             height: 20rem;
             width: 15rem;
             margin: 0 1rem 1rem 0;
 
-            background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+        }
+
+        .text-container {
+            background: rgba(0, 0, 0, 0.5);
+            text-align: left;
+            width: 100%;
+            padding: 1rem;
         }
 
         .image:hover .role {
@@ -184,7 +186,8 @@
 </head>
 <body>
 <div class="header-container">
-    <img src="https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/Batman_log.jpg?raw=true" alt="Batmen logo"/>
+    <img src="https://github.com/ZubenkoHalyna/HW_HTML-CSS/blob/main/Lesson%201/Batman_log.jpg?raw=true"
+         alt="Batmen logo"/>
     <div class="header-text">
         <h1>Бетмен</h1>
         Американський фільм Тіма Бертона 1989 року, що базується на однойменній серії коміксів про супергероя
@@ -192,76 +195,78 @@
     </div>
 </div>
 <h2>Акторський склад</h2>
-<div class="Michael_Keaton image">
-    <div class="text-container">
-        <div class="name">Майкл Кітон</div>
-        <div class="role">Бетмен / Брюс Вейн</div>
+<div class="actors">
+    <div class="Michael_Keaton image">
+        <div class="text-container">
+            <div class="name">Майкл Кітон</div>
+            <div class="role">Бетмен / Брюс Вейн</div>
+        </div>
     </div>
-</div>
-<div class="Jack_Nicholson image">
-    <div class="text-container">
-        <div class="name">Джек Ніколсон</div>
-        <div class="role">Джокер / Джек Напьє</div>
+    <div class="Jack_Nicholson image">
+        <div class="text-container">
+            <div class="name">Джек Ніколсон</div>
+            <div class="role">Джокер / Джек Напьє</div>
+        </div>
     </div>
-</div>
-<div class="Kim_Basinger image">
-    <div class="text-container">
-        <div class="name">Кім Бейсінгер</div>
-        <div class="role">Вікі Вейл</div>
+    <div class="Kim_Basinger image">
+        <div class="text-container">
+            <div class="name">Кім Бейсінгер</div>
+            <div class="role">Вікі Вейл</div>
+        </div>
     </div>
-</div>
-<div class="Robert_Wuhl image">
-    <div class="text-container">
-        <div class="name">Роберт Вул</div>
-        <div class="role">Александер Нокс</div>
+    <div class="Robert_Wuhl image">
+        <div class="text-container">
+            <div class="name">Роберт Вул</div>
+            <div class="role">Александер Нокс</div>
+        </div>
     </div>
-</div>
-<div class="Pet_Hingl image">
-    <div class="text-container">
-        <div class="name">Пет Гінгл</div>
-        <div class="role">комісар Джеймс Ґордон</div>
+    <div class="Pet_Hingl image">
+        <div class="text-container">
+            <div class="name">Пет Гінгл</div>
+            <div class="role">комісар Джеймс Ґордон</div>
+        </div>
     </div>
-</div>
-<div class="Billy_Dee_Williams image">
-    <div class="text-container">
-        <div class="name">Біллі Ді Вільямс</div>
-        <div class="role">Гарві Дент</div>
+    <div class="Billy_Dee_Williams image">
+        <div class="text-container">
+            <div class="name">Біллі Ді Вільямс</div>
+            <div class="role">Гарві Дент</div>
+        </div>
     </div>
-</div>
-<div class="Michael_Gough image">
-    <div class="text-container">
-        <div class="name">Майкл Гоф</div>
-        <div class="role">Альфред Пенніворт</div>
+    <div class="Michael_Gough image">
+        <div class="text-container">
+            <div class="name">Майкл Гоф</div>
+            <div class="role">Альфред Пенніворт</div>
+        </div>
     </div>
-</div>
-<div class="Jack_Palance image">
-    <div class="text-container">
-        <div class="name">Джек Паланс</div>
-        <div class="role">Карл Ґріссом</div>
+    <div class="Jack_Palance image">
+        <div class="text-container">
+            <div class="name">Джек Паланс</div>
+            <div class="role">Карл Ґріссом</div>
+        </div>
     </div>
-</div>
-<div class="Jerry_Hall image">
-    <div class="text-container">
-        <div class="name">Джеррі Голл</div>
-        <div class="role">Алісія Гант</div>
+    <div class="Jerry_Hall image">
+        <div class="text-container">
+            <div class="name">Джеррі Голл</div>
+            <div class="role">Алісія Гант</div>
+        </div>
     </div>
-</div>
-<div class="Tracey_Walter image">
-    <div class="text-container">
-        <div class="name">Трейсі Волтер</div>
-        <div class="role">Боб</div>
+    <div class="Tracey_Walter image">
+        <div class="text-container">
+            <div class="name">Трейсі Волтер</div>
+            <div class="role">Боб</div>
+        </div>
     </div>
-</div>
-<div class="Lee_Wallace image">
-    <div class="text-container">
-        <div class="name">Лі Воллес</div>
-        <div class="role">мер</div>
+    <div class="Lee_Wallace image">
+        <div class="text-container">
+            <div class="name">Лі Воллес</div>
+            <div class="role">мер</div>
+        </div>
     </div>
-</div>
-<div class="William_Hootkins image">
-    <div class="text-container">
-        <div class="name">Вільям Гуткінс</div>
-        <div class="role">лейтенант Екхард</div>
+    <div class="William_Hootkins image">
+        <div class="text-container">
+            <div class="name">Вільям Гуткінс</div>
+            <div class="role">лейтенант Екхард</div>
+        </div>
     </div>
 </div>
 </body>
