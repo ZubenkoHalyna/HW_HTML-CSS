@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    height: 50vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section p {
+    margin: 1rem 5rem;
+}
+
+.light {
+    background-color: lightpink;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
