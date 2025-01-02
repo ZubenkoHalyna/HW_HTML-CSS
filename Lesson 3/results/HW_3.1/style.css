@@ -1,0 +1,44 @@
+body {
+    width: 98.5vw;
+    height: 97vh;
+    margin: 1.5vh 0.75vw;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: stretch;
+    color: white;
+}
+
+.widgets {
+    background-color: steelblue;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_widgets-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: stretch;
+}
+
+.big_widget {
+    background-color: darkslateblue;
+    height: auto;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact {
+    background-color: steelblue;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
