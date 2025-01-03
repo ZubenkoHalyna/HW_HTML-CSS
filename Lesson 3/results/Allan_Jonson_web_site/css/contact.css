@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.photo {
+    height: 27rem;
+    width: 23rem;
+    background-image: url("../photo/man.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    width: fit-content;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+.contact-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-item img {
+    height: 2rem;
+    width: 2rem;
+}

@@ -1,0 +1,16 @@
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.service-item {
+    width: 20rem;
+}
+
+.service-item img {
+    height: 4rem;
+    width: 4rem;
+}
