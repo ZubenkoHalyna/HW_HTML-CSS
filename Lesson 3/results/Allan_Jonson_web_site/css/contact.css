@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+main {
+    justify-content: space-around;
+}
+
 .contact-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,16 +14,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.photo {
-    height: 27rem;
+img.card {
     width: 23rem;
-    background-image: url("../photo/man.png");
-    background-size: cover;
-    background-position: center;
-}
-
-.text {
-    width: fit-content;
+    padding-bottom: 0;
+    object-fit: cover;
 }
 
 h2 {
