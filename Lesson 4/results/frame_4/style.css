@@ -45,6 +45,8 @@ section {
 
 aside {
     width: 27vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .spam-1 {
