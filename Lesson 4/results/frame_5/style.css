@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+header {
+    height: 4vh;
+    background-color: #D9D9D9;
+}
+
+main {
+    height: 74vh;
+    display: flex;
+}
+
+.content {
+    width: 59vw;
+    background-color: #A4A4A4;
+}
+
+aside {
+    width: 41vw;
+    background-color: #C0BDBD;
+}
+
+.spam-1 {
+    height: 40vh;
+    background-color: #7F7A7A;
+}
+
+.spam-2 {
+    height: 34vh;
+    background-color: #615050;
+}
+
+.links {
+    height: 10vh;
+    background-color: #D9D9D9;
+}
+
+footer {
+    height: 12vh;
+    background-color: #AFA9A9;
+}

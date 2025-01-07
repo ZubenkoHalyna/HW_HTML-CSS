@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 4vh;
+    background-color: #D9D9D9;
+}
+
+main {
+    height: 86vh;
+    display: flex;
+}
+
+.content {
+    width: 59vw;
+    display: flex;
+}
+
+.first {
+    width: 49%;
+    background-color: #A4A4A4;
+}
+
+.last {
+    width: 51%;
+    background-color: #C1C1C1;
+}
+
+aside {
+    width: 41vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.spam-1 {
+    height: 50%;
+    background-color: #7F7A7A;
+}
+
+.spam-2 {
+    height: 50%;
+    background-color: #6B6161;
+}
+
+footer {
+    height: 10vh;
+    background-color: #D9D9D9;
+}
