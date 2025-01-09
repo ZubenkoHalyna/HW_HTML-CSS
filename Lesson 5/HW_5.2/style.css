@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Inter:opsz@14..32&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #1E1E1E;
+}
+
+.w-1340 {
+    width: 1340px;
+    margin: 0 auto;
+
+    font-family: "Bowlby One", sans-serif;
+    text-transform: uppercase;
+    color: #E9E3DC;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+nav {
+    padding-top: 36px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+
+.btn {
+    height: 60px;
+    color: #1E1E1E;
+    font-size: 18px;
+    line-height: 97%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul .active {
+    width: 203px;
+    background-color: #B3A0CD;
+}
+
+h1 {
+    width: 1255px;
+    margin: 74px auto 33px auto;
+
+    text-align: center;
+    font-size: 107px;
+    line-height: 89%;
+    letter-spacing: -2px;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.about-us {
+    color: #1E1E1E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    background-color: #D1EF53;
+    border-radius: 30px;
+    padding: 98px 0 85px 0;
+    margin: 36px 4px 4px 4px;
+}
+
+.half-page {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.right {
+    display: flex;
+    justify-content: right;
+}
+
+.about-us h2 {
+    width: 533px;
+    margin-right: 28px;
+
+    color: #1E1E1E;
+
+    font-size: 70px;
+    line-height: 89%;
+    letter-spacing: -1px;
+}
+
+.about-us p {
+    color: #1E1E1E;
+    width: 521px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: none;
+}
+
+.about-us .btn {
+    width: 176px;
+    margin-top: 34px;
+
+    background: #E9E3DC;
+    border: 4px solid #1E1E1E;
+    box-shadow: 8px 8px 0 0 #000;
+}
+
+.gallery {
+    margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    margin-bottom: 36px;
+}
+
+.get-started h2 {
+    width: 895px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 102%;
+}
+
+.get-started .btn {
+    width: 196px;
+    background-color: #D1EF53;
+}
