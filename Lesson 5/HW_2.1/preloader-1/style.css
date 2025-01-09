@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #89a687;
+}
+
+.animation {
+    position: relative;
+    height: 195px;
+    width: 240px;
+}
+
+.gear-1 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    animation: gears-1 5s linear infinite;
+}
+
+.gear-2 {
+    width: 120px;
+    height: 120px;
+
+    position: absolute;
+    top: 71px;
+    left: 115px;
+    animation: gears-2 5s linear infinite;
+}
+
+.gear-2 path {
+    fill: #2C30A8;
+}
+
+.gear-1 path {
+    fill: #A82C2C;
+}
+
+.text {
+    position: absolute;
+    top: -19px;
+    left: -21px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.text li{
+    position: absolute;
+    background-color: rgb(216, 208, 177);
+    color: #1E1E1E;
+    margin: 0;
+    padding: 5px 8px;
+    border-radius: 15%;
+
+    offset-path: path("M56.924 7.40617C32.6488 17.2896 12.7295 37.99 4.71161 65.1536C1.31827 79.2773 0.441501 87.6093 1.31708 103.462C3.69159 121.034 11.52 137.825 24.8339 151.079C33.7998 160.005 36.6766 162.73 55.5855 170.302C74.4945 177.875 103.109 182.498 116.515 188.11C129.92 193.723 148.276 210.733 159.876 218.176C171.477 225.618 185.29 229.39 200.497 229.032C241.611 228.065 275.328 193.702 275.805 152.281C276.101 126.635 264.036 104.249 245.045 91.1479C226.053 78.0465 212.933 77.3232 194.38 65.0714C172.287 50.4828 159.101 33.2276 143.087 20.7376C127.073 8.24762 123.253 7.12516 110.966 3.84117C92.7203 -1.03547 74.0748 0.547017 57.4396 7.1981");
+    offset-position: center;
+    animation: text 10s linear infinite;
+}
+
+li:nth-child(8) {
+    animation-delay: 0ms;
+}
+li:nth-child(7) {
+    animation-delay: 250ms;
+}
+li:nth-child(6) {
+    animation-delay: 500ms;
+}
+li:nth-child(5) {
+    animation-delay: 750ms;
+}
+li:nth-child(4) {
+    animation-delay: 1000ms;
+}
+li:nth-child(3) {
+    animation-delay: 1250ms;
+}
+li:nth-child(2) {
+    animation-delay: 1500ms;
+}
+li:nth-child(1) {
+    animation-delay: 1750ms;
+}
+
+@keyframes gears-1 {
+    from {
+        transform: rotate(0.12217304763960307rad);
+    }
+
+    to {
+        transform: rotate(6.4053583548191895rad);
+    }
+}
+
+@keyframes gears-2 {
+    from {
+        transform: rotate(-0.23561944901923448rad);
+    }
+    to {
+        transform: rotate(-6.5188047561988210rad);
+    }
+}
+
+@keyframes text {
+    from {
+        offset-distance: 0;
+    }
+    to {
+        offset-distance: 100%;
+    }
+}
