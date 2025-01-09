@@ -63,31 +63,26 @@ main {
 }
 
 .text {
-    color: rgba(0,0,0);
+    color: #1E1E1E;
     font-size: 10vh;
     display: flex;
-    flex-direction: row;
     font-family: "Codystar", sans-serif;
 }
 
 .text li {
     display: flex;
     align-items: end;
-    vertical-align: bottom;
-    transform: rotate(calc((var(--i) - 4) * -15grad));
+    transform: rotate(calc(15grad * (4 - var(--i))));
 
-    animation: blink-animation 10.5s infinite;
-    animation-delay: calc(var(--i)* 1.5s);
+    animation: blink-animation 8s infinite;
+    animation-delay: calc(var(--i)* 1.14s);
 }
 
 .text li:nth-child(1), .text li:nth-child(7) {
-    margin-bottom: calc(10vh * 0.292893 / 0.707107); /** 1-cos 45 **/
+    margin-bottom: calc(10vh * 0.414214);
 }
 .text li:nth-child(2), .text li:nth-child(6) {
-    margin-bottom: calc(10vh * 0.133975 / 0.866025); /** 1-cos 30 **/
-}
-.text li:nth-child(3), .text li:nth-child(5) {
-    margin-bottom: calc(10vh * 0.034075 / 0.965926); /** 1-cos 15 **/
+    margin-bottom: calc(10vh * 0.154701);
 }
 
 @keyframes blink-animation {
