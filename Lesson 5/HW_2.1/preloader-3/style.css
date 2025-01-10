@@ -11,6 +11,9 @@ body {
     width: 100vw;
     overflow: hidden;
     background-color: #1E1E1E;
+
+    --top-center: calc(50vh + 5vw);
+    --bottom: calc(100vh + 10vw);
 }
 
 li {
@@ -21,10 +24,6 @@ li {
     text-align: center;
     top: -10vw;
     left: calc(15vw + 10vw * var(--i));
-
-    --top-center: calc(50vh + 5vw);
-    --bottom: calc(100vh + 10vw);
-
     animation: move-letter-animation 14s infinite ease-in-out;
     animation-delay: calc(var(--i)* 1s);
 }
