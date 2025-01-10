@@ -67,7 +67,6 @@ main {
     top: 200px;
     font-size: 80px;
     font-family: "Codystar", sans-serif;
-    color: #1E1E1E;
     offset-path: path("M1.27019 1C25.4072 53.7956 83.4739 91 151.27 91C219.066 91 277.133 53.7956 301.27 1");
     offset-distance: calc(8% + 100% *  var(--i) / 7);
 }
