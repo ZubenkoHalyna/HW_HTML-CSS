@@ -64,38 +64,27 @@ h1 {
 }
 
 .header-img {
-    display: block;
     margin: 0 auto;
 }
 
 .about-us {
     color: #1E1E1E;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding: 98px 0 85px 0;
+    margin: 36px 4px 4px 4px;
 
     background-color: #D1EF53;
     border-radius: 30px;
-    padding: 98px 0 85px 0;
-    margin: 36px 4px 4px 4px;
 }
 
-.half-page {
-    flex-grow: 1;
-    flex-basis: 0;
-}
-
-.right {
-    display: flex;
-    justify-content: right;
+.half {
+    width: 50%;
 }
 
 .about-us h2 {
     width: 533px;
-    margin-right: 28px;
-
+    margin: 0 28px 0 auto;
     color: #1E1E1E;
-
     font-size: 70px;
     line-height: 89%;
     letter-spacing: -1px;
@@ -130,7 +119,6 @@ h1 {
 
 .row {
     display: flex;
-    flex-direction: row;
     gap: 40px;
 }
 
