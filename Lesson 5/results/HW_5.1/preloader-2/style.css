@@ -18,8 +18,8 @@ main {
 
 .animation {
     position: relative;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .spinner li {
@@ -32,8 +32,8 @@ main {
 }
 
 .spinner li div {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     box-shadow: 12px 12px 25px 10px rgba(89, 1, 181, 0.5),
                 10px 10px 15px 5px rgb(154, 4, 146),
@@ -63,12 +63,12 @@ main {
 .text li span{
     position: absolute;
     margin: auto auto;
-    left: -50px;
-    top: 200px;
-    font-size: 80px;
+    left: -70px;
+    top: 150px;
+    font-size: 70px;
     font-family: "Codystar", sans-serif;
     offset-path: path("M1.27019 1C25.4072 53.7956 83.4739 91 151.27 91C219.066 91 277.133 53.7956 301.27 1");
-    offset-distance: calc(8% + 100% *  var(--i) / 7);
+    offset-distance: calc(7% + 100% *  var(--i) / 7);
 }
 
 @keyframes blink-animation {
