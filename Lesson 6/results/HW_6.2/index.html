@@ -7,13 +7,16 @@
 </head>
 <body>
 <main>
-    <div class="center">
+    <div class="form-container">
         <h2>Вхід в особистий кабінет</h2>
         <form action="">
-            <input class="input" type="text" name="name" placeholder="Логін або email">
-            <input class="input" type="password" name="name" placeholder="Пароль">
+            <input type="text" name="name" placeholder="Логін або email" required>
+            <input type="password" name="password" placeholder="Пароль" required>
             <div class="row">
-                <label>Запам'ятати мене <input class="checkbox" type="checkbox"></label>
+                <label>
+                    Запам'ятати мене
+                    <input type="checkbox" name="remember-me">
+                </label>
                 <input class="submit-btn" type="submit" value="Вхід">
             </div>
         </form>
