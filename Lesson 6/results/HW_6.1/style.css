@@ -17,7 +17,7 @@ h3 {
 }
 
 .forth-list > ul > li:last-of-type {
-    color: red;
+    color: purple;
 }
 
 .fifth-list > ul > li::first-letter {
