@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+* ::selection {
+    color: white;
+    background-color: #3C8A8A;
+}
+
 body {
     background-color: #3C8A8A;
-    font-family: "Raleway", serif;
-    font-weight: 500;
 }
 
 main {
@@ -20,15 +23,20 @@ main {
     align-items: center;
 }
 
-.center {
+.form-container {
     display: flex;
     flex-direction: column;
+}
+
+input, label, h2 {
+    font-family: "Raleway", serif;
+    font-weight: 500;
 }
 
 h2 {
     text-align: center;
     background-color: #EBF3F3;
-    padding: 1.5rem 3rem 1.5rem 3rem;
+    padding: 1.5rem 3rem;
     border-radius: 0.5rem 0.5rem 0 0;
 }
 
@@ -41,14 +49,24 @@ form {
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.input {
-    font-size: 0.75rem;
+input:not([type='checkbox'],[type='submit']) {
     padding: 0.4rem 0.25rem;
+    border: 1px solid gray;
 }
 
-.checkbox {
-    margin-top: 0.15rem;
+input:focus {
+    outline: none;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px 0 rgba(60, 138, 138, 0.25);
+}
+
+input::placeholder {
+    font-size: 0.6rem;
+}
+
+input[type='checkbox'] {
     margin-left: 0.5rem;
+    accent-color: #3C8A8A;
 }
 
 label {
@@ -68,8 +86,5 @@ label {
     border: gray solid 1px;
     padding: 0.25rem 1.5rem;
     border-radius: 0.5rem;
-
-    font-family: "Raleway", serif;
     font-size: 0.6rem;
-    font-weight: 500;
 }
