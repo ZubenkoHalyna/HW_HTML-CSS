@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<main>
+    <div class="form-container">
+        <div class="sign-in">
+            <img class="logo" src="img/instagram-logo.png" alt="Instagram logo">
+            <form>
+                <input oninput="enableSubmit()" class="required" type="text" name="login" required
+                       placeholder="Номер телефону, ім'я користувача або email">
+                <input oninput="enableSubmit()" class="required" type="password" name="password" required
+                       placeholder="Пароль">
+                <input type="submit" disabled value="Увійти">
+            </form>
+            <p class="or-separator">АБО</p>
+            <div class="row">
+                <img class="icon" src="icons/facebook.svg" alt="Facebook icon">
+                <a class="facebook-link" href="/">Увійти через Facebook</a>
+            </div>
+            <a class="forgot-password-link" href="/">Забули пароль?</a>
+        </div>
+        <div class="register row">
+            Не маєте облікового запису?
+            <a class="register-link" href="/">Зареєструйтеся</a>
+        </div>
+    </div>
+</main>
+</body>
+</html>
