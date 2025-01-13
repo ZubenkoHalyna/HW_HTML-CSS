@@ -3,24 +3,24 @@ h3 {
 }
 
 /*--------------for task---------------*/
-.first-list > ul > li:nth-child(2n) {
+.first-list > ol > li:nth-child(2n) {
     color: deeppink;
 }
 
-.second-list > ul > li:nth-child(2n+1) {
+.second-list > ol > li:nth-child(2n+1) {
     font-size: 22px;
 }
 
-.third-list > ul > li:nth-child(2n+4)::after {
+.third-list > ol > li:nth-child(2n+4)::after {
     content: " !";
     color: red;
 }
 
-.forth-list > ul > li:last-of-type {
+.forth-list > ol > li:last-of-type {
     color: purple;
 }
 
-.fifth-list > ul > li::first-letter {
+.fifth-list > ol > li::first-letter {
     color: red;
     font-size: 30px;
 }
