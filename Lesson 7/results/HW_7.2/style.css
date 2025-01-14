@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    background-color: #071341;
+    font-family: 'Inter', serif;
+    color: white;
+}
+/*-------------------- Header ----------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    height: 113px;
+    width: 100%;
+    padding: 0 115px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24204A;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    color: #E5E5E5;
+
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+header nav {
+    width: fit-content;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    gap: 63px;
+    align-items: center;
+}
+
+header nav li a{
+    color: #FFF;
+
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+main {
+    padding: 113px 0 94px 0;
+}
+
+/*------------------------- First screen -----------------------------*/
+
+.first-screen {
+    min-height: 692px;
+    background-color: #24204A;
+    color: #8E88C1;
+    padding: 67px 115px 101px 115px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 2rem;
+}
+
+.first-screen > div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+h1 {
+    width: 261px;
+    color: #FFF;
+
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.first-screen-main-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0.8px;
+}
+
+.main-img {
+    width: 375px;
+    height: 411px;
+    border-radius: 8px;
+    background: #827EAC;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.25);
+}
+
+.main-btn {
+    width: 200px;
+    height: 56px;
+    border-radius: 8px;
+    background: #3F50E7;
+    color: #FFF;
+
+    font-family: 'Inter', serif;
+    font-size: 16px;
+    font-weight: 500;
+    box-shadow: 0 6px 20px 0 rgba(0, 255, 224, 0.20);
+    border: none;
+}
+
+.lbl {
+    width: 145px;
+    height: 41px;
+    border-radius: 8px;
+    background: #4B4864;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*------------------------- Second screen ------------------------------------*/
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 115px 152px 115px;
+}
+
+.sun-items-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sun-item div:last-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.sun-item {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.sun-icon-w {
+    height: 56px;
+    width: 56px;
+    background-size: auto;
+    border-radius: 8px;
+}
+
+.sun-item:nth-child(1) .sun-icon-w {
+    background: #FF6853 url("img/sun-w.svg") no-repeat center;
+}
+.sun-item:nth-child(2) .sun-icon-w {
+    background: #FF537C url("img/sun-w.svg") no-repeat center;
+}
+.sun-item:nth-child(3) .sun-icon-w {
+    background: #80D2C4 url("img/sun-w.svg") no-repeat center;
+}
+.sun-item:nth-child(4) .sun-icon-w {
+    background: #3F50E7 url("img/sun-w.svg") no-repeat center;
+}
+.sun-item:nth-child(5) .sun-icon-w {
+    background: #95CB7C url("img/sun-w.svg") no-repeat center;
+}
+
+.sun-item h4 {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sun-item p {
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.8px;
+}
+
+h2 {
+    max-width: 1074px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 117%;
+
+}
+
+.information p {
+    color: #8E88C1;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.8px;
+}
+
+.sun-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sun-card {
+    width: 209px;
+    border-radius: 8px;
+    border: 2px solid #8E88C1;
+    padding: 44px 16px 24px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+.sun-icon {
+    width: 36px;
+    height: 36px;
+}
+
+.sun-card p {
+    color: #8E88C1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: 0.8px;
+}
+
+/*----------------------------- Map ----------------------------------*/
+
+.map {
+    border: 0;
+    height: 664px;
+    width: 100%;
+}
+
+/*----------------------------- Footer ----------------------------------*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 94px;
+    width: 100%;
+    background-color: #071341;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
