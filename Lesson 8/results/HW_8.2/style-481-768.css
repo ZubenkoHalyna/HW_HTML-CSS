@@ -1,0 +1,11 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+    .wrapper {
+        padding: 48px 24px;
+        gap: 40px 24px;
+    }
+
+    .card {
+        max-width: none;
+        flex: 1 0 35%;
+    }
+}
